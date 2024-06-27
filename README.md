@@ -1,4 +1,4 @@
-# Carbon Labelling for Human Impact
+# Carbon Labels for Climate Justice
 Repository for the data and code used to develop calculations of loss of life per kg of carbon emissions under a 2.4ºC warming scenario for the year 2100
 
 ## Input Data
