@@ -27,6 +27,9 @@ We expand our estimates of impact to additional dimensions. We identify US speci
 ## Additional Notes
 The calculations presented here are likely an underestimate. The optimal scenario for second and minutes lost we use posits 2.4ºC or  warming by 2100, and an emissions trajectory where emissions are gradually reduced to a full decarbonization in 2050, which under current trajectories are likely too low. Further, we only use marginal sea level rise estimates, and population growth will increase the damages. Note, we have converted emissions into CO2 equivalents integrated over a 100 year lifetime  and more fine tuned estimates require studies to map the lifetime of different species of greenhouse gas emissions and warming potentials for each product consumed, and to map those contributions to the emissions budgets against time dependent mortality. However, for food items in particular where this may be problematic we reduce overall emissions by using only cradle to farm gate emissions, rather than full cradle to fork life cycle assessments to ensure over accounting is limited e.g. on ruminant meat. These calculations are all intended to be illustrative.
 
+# License
+
+The data methodology is distributed is under a MIT License.
 
 
 
