@@ -8,7 +8,7 @@ The dependencies for this analysis include three libraries which are downloaded 
 
 ## Running the analysis
 
-Download the repo,  and run the following `mortalitycostofcarboncalculations.R`, which includes a demo for calculating the impact of a transatlantic flight, each new product estimate will likely less than 1 ms to complete on a modern desktop.
+Download the repo,  and run the following `mortalitycostofcarboncalculations.R`, which includes a demo for calculating the impact of a transatlantic flight. Each new product estimate takes less than 150 nanoseconds to complete on an Apple M1 Pro with 32GB RAM.
 
 ## Input Data
 For data on population up to 2100, we used the [UNDP predictions](https://population.un.org/wpp/) of population, life expectancy at birth and median age globally and by country/region.
