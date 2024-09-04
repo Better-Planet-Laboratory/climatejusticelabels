@@ -1,6 +1,13 @@
 # Carbon Labels for Climate Justice
 Repository for the data and code used to develop cumulative loss of life over 2020-2100, per kg of Co2 eq emissions for a given product of service, under a 2.4ºC warming scenario for the year 2100.
 
+## Installation Guide
+This analysis was conducted in [R](https://www.r-project.org) version 4.3.3 which can be run on a wide variety of UNIX platforms, Windows and MacOS. R is released under the GNU General Public License [(GPL)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or version 3. It can be downloaded from https://www.r-project.org and is typically installed within 5 minutes.  There are no non-standard hardware or resources needed to run R on a typical computer.
+
+The dependencies for this analysis include three libraries which can be downloaded from the Comprehensive R Archive Network (CRAN), which include “tidyverse”, “readxl”, and “zoo”.
+
+
+
 ## Input Data
 For data on population up to 2100, we used the [UNDP predictions](https://population.un.org/wpp/) of population, life expectancy at birth and median age globally and by country/region.
 
