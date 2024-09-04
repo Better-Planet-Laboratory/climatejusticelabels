@@ -1,10 +1,15 @@
 #Install relevant packaged and load libraries
-install.versions(c('tidyverse', 'readxl', 'zoo'), c('2.0.0', '1.4.3', '1.8-12'))
-
+CRAN<-c("http://cran.us.r-project.org")
+install_version("devtools", version = "2.4.5", repos = CRAN)
+install_version("tidyverse", version = "2.0.0", repos = CRAN)
+install_version("readxl", version = "1.4.3", repos = CRAN)
+install_version("zoo", version = "1.8-12", repos = CRAN)
+install_version("microbenchmark", version = "1.4.10", repos = CRAN)
 
 library(tidyverse)
 library(readxl)
 library(zoo)
+library(microbenchmark)
 
 #Load UNDP population data predictions, select for relevant column and world averages
 undp <- read_excel("WPP2022_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT_REV1.xlsx", sheet="Medium variant", skip=16)
@@ -58,19 +63,22 @@ totalLE_sec <- totalLE*365.25*24*60*60
 #Calculate the number of seconds equivalent to 1 kg of CO2
 #9317895 kg CO2 (9317.895 T) is equal to 1 life lost between 2020-2100 (From Bressler 2021, Nat Comm)
 # 1 life lost is equal to 40.91652 years (or 1313477721 seconds) based on the weighted life expectancies & median age between 2020 and 2100
-
 kg_mcc <- totalLE_sec/9317895
 # 1kg CO2 is equal to approximately 141 seconds off of a life
 
-
-
-
+#basic function to calculate the number of hours lost per kg of CO2
+#we can multiple the total emissions by our derived seconds lost/kg factor
+hours_lost <- function(kg){
+  return(kg*kg_mcc/60/60)
+}
 
 #A worked example
 #eg. RT Flight London to New York is 409 KG of CO2
-#we can multiple the total emissions by our derived seconds lost/kg factor
-lhrjfk=409*kg_mcc
-lhrjfk/60/60 #divide to get the final result in hours
+#A return flight from London to New York should take 16.0 hours off of someone's life
+hours_lost(409)
 
-#A return flight from London to New York would take 16.0 hours off of someone's life
+#this function can be used for other products which Co2eq and is very fast. Please see notes in the README for further information. 
+microbenchmark(hours_lost(409))
+
+
 
