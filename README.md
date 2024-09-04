@@ -6,7 +6,9 @@ This analysis was conducted in [R](https://www.r-project.org) version 4.3.3 whic
 
 The dependencies for this analysis include three libraries which can be downloaded from the Comprehensive R Archive Network (CRAN), which include “tidyverse”, “readxl”, and “zoo”.
 
+## Running the analysis
 
+Download the repo,  and run the following `mortalitycostofcarboncalculations.R`
 
 ## Input Data
 For data on population up to 2100, we used the [UNDP predictions](https://population.un.org/wpp/) of population, life expectancy at birth and median age globally and by country/region.
