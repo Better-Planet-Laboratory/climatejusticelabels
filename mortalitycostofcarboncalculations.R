@@ -1,3 +1,8 @@
+#Install relevant packaged and load libraries
+install.packages("tidyverse")
+install.packages("readxl")
+install.packages("zoo")
+
 
 library(tidyverse)
 library(readxl)
