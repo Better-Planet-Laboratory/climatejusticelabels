@@ -8,7 +8,7 @@ The dependencies for this analysis include three libraries which can be download
 
 ## Running the analysis
 
-Download the repo,  and run the following `mortalitycostofcarboncalculations.R`. A demonstration example is given at the end of the script for calculating the impact of a transatlantic flight.
+Download the repo,  and run the following `mortalitycostofcarboncalculations.R`, which includes a demonstration for calculating the impact of a transatlantic flight.
 
 ## Input Data
 For data on population up to 2100, we used the [UNDP predictions](https://population.un.org/wpp/) of population, life expectancy at birth and median age globally and by country/region.
