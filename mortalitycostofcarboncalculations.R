@@ -1,7 +1,5 @@
 #Install relevant packaged and load libraries
-install.packages("tidyverse")
-install.packages("readxl")
-install.packages("zoo")
+install.versions(c('tidyverse', 'readxl', 'zoo'), c('2.0.0', '1.4.3', '1.8-12'))
 
 
 library(tidyverse)
