@@ -2,7 +2,9 @@
 
 Repository containing supporting notes for Mehrabi, Z. and Braich, G. 2024. Incorporate climate injustice into carbon labels, Nature Human Behaviour. As well the code and example data for reproducing the numbers presented in this paper.
 
-## Supplementary Notes
+<img width="1155" alt="Fig1" src="https://github.com/user-attachments/assets/988748d6-2579-42d8-8f1d-7b32e8a90424">
+
+## Notes
 Here we report the calculations we use to illustrate the logic for human impact labeling, drawing on reporting emissions from Google Flights, life cycle assessments, heat mortality related deaths from, sea level rise data and population statistics. Briefly, we illustrate calculations of cumulative loss of life over 2020-2100, per kg of CO<sub>2</sub><sub>eq</sub> emissions for a given product of service, under a 2.4ºC warming scenario for the year 2100.
 
 ### Input Data
@@ -20,7 +22,7 @@ We expand our estimates of impact to additional dimensions. We identify US speci
 ### Additional notes
 The calculations presented here are likely an underestimate. The optimal scenario for seconds and minutes lost we use posits 2.4ºC warming by 2100, and an emissions trajectory where emissions are gradually reduced to a full decarbonization in 2050, which under current trajectories are likely too low. Further, we only use marginal sea level rise estimates, and population growth will increase the damages. Note, we have converted emissions into CO<sub>2</sub> equivalents integrated over a 100 year lifetime and more fine tuned estimates require studies to map the lifetime of different species of greenhouse gas emissions and warming potentials for each product consumed, and to map those contributions to the emissions budgets against time dependent mortality. However, for food items in particular where this may be problematic we reduce overall emissions by using only cradle to farm gate emissions, rather than full cradle to fork life cycle assessments to ensure over accounting is limited e.g. on ruminant meat. These calculations are all intended to be illustrative.
 
-### Supplementary References
+### References
 1.	UNDP Population Statistics. Accessed from: https://population.un.org/wpp/
 2.	Bressler, R.D. The mortality cost of carbon. Nature Communications 12, 4467 (2021).
  
@@ -32,23 +34,17 @@ Global Environmental Change 62, 101926 (2020).
 7.	Kulp, S.A., Strauss, B.H. New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding. Nature Communications 10, 4844 (2019).
 
 
-
-
-
-
-
-
 ## Installation Guide
-This analysis was conducted in [R](https://www.r-project.org) version 4.3.3 which can be run on a wide variety of UNIX platforms, Windows and MacOS. R is released under the GNU General Public License [(GPL)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or version 3. It can be downloaded from https://www.r-project.org and is typically installed within 5 minutes.  There are no non-standard hardware or resources needed to run R on a modern desktop.
-
-The dependencies for this analysis include three libraries which are downloaded from the Comprehensive R Archive Network (CRAN), and include “tidyverse”, “readxl”, and “zoo”.
+This analysis was conducted in [R](https://www.r-project.org) version 4.3.3 which can be run on a wide variety of UNIX platforms, Windows and MacOS. R is released under the GNU General Public License [(GPL)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or version 3. It can be downloaded from https://www.r-project.org and is typically installed within 5 minutes.  There are no non-standard hardware or resources needed to run R on a modern desktop. The dependencies for this analysis include three libraries which are downloaded from the Comprehensive R Archive Network (CRAN), and include “tidyverse”, “readxl”, and “zoo”.
 
 ### Running the analysis
 Download the repo,  and run the following `mortalitycostcalculations.R`, which includes a demo for calculating the impact of a transatlantic flight. Each new product estimate takes less than 150 nanoseconds to complete on an Apple M1 Pro with 32GB RAM.
 
-
 ### License
 The data methodology is distributed is under a MIT License.
+
+
+
 
 
 
