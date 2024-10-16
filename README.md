@@ -2,7 +2,7 @@
 
 Repository containing supporting notes for Mehrabi, Z. and Braich, G. 2024. Incorporate climate injustice into carbon labels, Nature Human Behaviour. As well the code and example data for reproducing the numbers presented in this paper.
 
-<img width="1155" alt="Fig1" src="https://github.com/Better-Planet-Laboratory/climatejusticelabels/blob/main/Supplementary%20Figures/Fig1.png">
+<img width="1155" alt="Fig1" src="https://github.com/Better-Planet-Laboratory/climatejusticelabels/blob/main/Supplementary%20Figures/Fig1_v1.png">
 
 ## Notes
 Here we report the calculations we use to illustrate the logic for human impact labeling, drawing on reporting emissions from Google Flights, life cycle assessments, heat mortality related deaths from, sea level rise data and population statistics. Briefly, we illustrate calculations of cumulative loss of life over 2020-2100, per kg of CO<sub>2</sub><sub>eq</sub> emissions for a given product of service, under a 2.4ºC warming scenario for the year 2100.
