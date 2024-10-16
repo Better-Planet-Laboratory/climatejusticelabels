@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/821106906.svg)](https://doi.org/10.5281/zenodo.13942100)
+
 # Incorporate climate injustice into carbon labels
 
 Repository containing supporting notes for Mehrabi, Z. and Braich, G. 2024. Incorporate climate injustice into carbon labels, Nature Human Behaviour. As well the code and example data for reproducing the numbers presented in this paper.
