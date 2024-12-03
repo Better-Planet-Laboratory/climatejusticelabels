@@ -2,7 +2,7 @@
 
 # Incorporate climate injustice into carbon labels
 
-Repository containing supporting notes for Mehrabi, Z. and Braich, G. 2024. Incorporate climate injustice into carbon labels, Nature Human Behaviour. As well the code and example data for reproducing the numbers presented in this paper.
+Repository containing supporting notes for Mehrabi, Z. and Braich, G. 2024. Incorporate climate injustice into carbon labels, Nature Human Behaviour, as well the code and example data for reproducing the numbers presented in this paper.
 
 <img width="1155" alt="Fig1" src="https://github.com/Better-Planet-Laboratory/climatejusticelabels/blob/main/Supplementary%20Figures/Fig1_fin.png">
 
